@@ -1,0 +1,36 @@
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+}
+.inputContainer {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  width: 100%;
+  height: 300px;
+  resize: none;
+}
+.resultContainer {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+.resultContainerItem {
+  display: flex;
+  flex-direction: row;
+  flex: 1 ;
+}
+.resultContainerItem div {
+  flex: 1;
+  border: 1px solid black;
+  padding: 6px 9px;
+}
+
+.inputContainer,
+.resultContainer {
+  padding: 0 40px;
+}

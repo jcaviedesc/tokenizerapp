@@ -1,0 +1,6 @@
+[
+    {
+        "regex":"PROYECTO|ACTIVIDAD|PERSONA|RECURSO",
+        "tag": "reserved-word"
+    }
+]
